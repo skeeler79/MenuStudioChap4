@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e271e32-8eda-474d-ac75-c767a1ee45ed" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Studio/src/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Studio/src/MenuItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../org/launchcode/java/studios/areaofacircle/CountingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/../org/launchcode/java/studios/areaofacircle/CountingCharacters.java" afterDir="false" />
     </list>
@@ -21,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

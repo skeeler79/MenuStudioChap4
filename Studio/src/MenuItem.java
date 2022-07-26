@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class MenuItem {
 
     private int price;
@@ -8,7 +10,9 @@ public class MenuItem {
     private int dateUpdated;
     private boolean isNew = true;
 
-    public MenuItem {
+    ArrayList<String> menuItems =  new ArrayList<String>();
+
+    public MenuItem (int price, String name, String description, String category, int dateCreated, int dateUpdated, boolean isNew){
         this.price = price;
         this.name = name;
         this.description = description;
@@ -75,5 +79,12 @@ public class MenuItem {
         isNew = aNew;
     }
 
-    public String newItem ( )
+    public void newItem (String itemName){
+        if (!menuItems.contains(itemName)){
+            menuItems.add(itemName);
+            isNew = true;
+        }else{
+            isNew = false;
+        }
+    }
 }
